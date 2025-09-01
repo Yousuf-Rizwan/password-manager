@@ -1,5 +1,4 @@
-    # YOUR PROJECT TITLE
-    #### Video Demo:  https://youtu.be/Ga7_t2_NalY
+    # Password Manager
     #### Description:
 
     A command-line password management tool that securely stores and encrypts user passwords using Fernet encryption from Python's cryptography library.
