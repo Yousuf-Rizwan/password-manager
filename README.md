@@ -1,7 +1,5 @@
-    # Password Manager
-    #### Description:
-
-    A command-line password management tool that securely stores and encrypts user passwords using Fernet encryption from Python's cryptography library.
+# Password Manager
+#### Description:    A command-line password management tool that securely stores and encrypts user passwords using Fernet encryption from Python's cryptography library.
 
 ## Features
 - Secure encryption of all stored passwords
@@ -26,9 +24,9 @@
 - `main()`: Controls program flow and user interaction
 
     ### Design choices
-1. Master Password being included - This was one I debated a bit. On one hand there was no real usability of it functionality wise but for the sake of having something cool and gimmicky i opted to keep it in. Initially i wanted to make it very secure but i realised it would be alot more complicated than previously thought.
-2. Simple print outputs - this is somewhat of a characteristics in my projects. In my opinion the less writing in the terminal the better.
-3. File storage - Plain text files used for simplicity, though a database would be better for production
+1. Master Password being included - This was one I debated a bit. On one hand there was no real usability of it functionality wise but for the sake of having something cool and gimmicky I opted to keep it in. Initially I wanted to make it very secure but I realised it would be alot more complicated than previously thought.
+2. Simple print outputs - This is somewhat of a characteristics in my projects. In my opinion the less writing in the terminal the better.
+3. File storage - Plain text files used for simplicity, though a database would be better for production.
 
 ## Testing
 The project includes pytest unit tests that verify:
@@ -38,7 +36,7 @@ The project includes pytest unit tests that verify:
 - File handling operations
 
 This was in my opinion the most frustrating part of the project.
-With each fix another 2 issues showed up and using solutions i had never touched before definitely pushed me to the limits
+With each fix another 2 issues showed up and using solutions I had never touched before definitely pushed me to the limits.
 A prevalent issue was key generation not working after pytest, however after some tinkering to my main project this somehow vanished ;/
 
 RUN : 'pytest test_project.py -v'
